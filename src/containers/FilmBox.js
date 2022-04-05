@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import FilmList from "../components/FilmList";
+import FilmFooter from "../components/FilmFooter";
 
 const FilmBox = () => {
 
@@ -38,6 +39,7 @@ const FilmBox = () => {
         <>
         <h1>Upcoming Film Releases for UK</h1>
         <FilmList films={films}/>
+        <FilmFooter/>
         </>
     )
 }
